@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biologia 1º Ano | Ensino Médio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link href="Trabalho.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ============ MENU ============ -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+ <div class="container">
+  <a class="navbar-brand" href="#inicio"><i class="bi bi-virus2"></i> Biologia 1º Ano - Flávia e Heitor</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="menu">
+   <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+    <li class="nav-item"><a class="nav-link" href="#conteudos">Conteúdos</a></li>
+    <li class="nav-item"><a class="nav-link" href="#exercicios">Exercícios</a></li>
+    <li class="nav-item"><a class="nav-link" href="#materiais">Materiais</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+   </ul>
+  </div>
+ </div>
+</nav>
+
+<!-- ============ INÍCIO ============ -->
+<header class="hero" id="inicio">
+ <div class="container">
+  <div class="row align-items-center g-4">
+   <div class="col-lg-7">
+    <h1>Entenda a vida, da célula ao organismo</h1>
+    <p class="lead">Resumos, exercícios e materiais de Biologia para o 1º ano do Ensino Médio, reunidos em um só lugar.</p>
+    <a href="#conteudos" class="btn btn-lima btn-lg me-2">Ver conteúdos</a>
+    <a href="#exercicios" class="btn btn-outline-light btn-lg">Fazer exercícios</a>
+   </div>
+   <div class="col-lg-5 text-center">
+    <!-- Para usar foto: troque o SVG por <img src="banner.jpg" class="img-fluid rounded" alt="Descrição"> -->
+    <svg class="celula" viewBox="0 0 200 200" role="img" aria-label="Ilustração de uma célula com núcleo e organelas">
+     <ellipse cx="100" cy="100" rx="92" ry="84" fill="#1b5a54" stroke="#d9ea6c" stroke-width="5"/>
+     <circle cx="92" cy="92" r="30" fill="#d9ea6c"/><circle cx="92" cy="92" r="11" fill="#0e3b43"/>
+     <ellipse cx="146" cy="128" rx="20" ry="11" fill="#e4572e" transform="rotate(-25 146 128)"/>
+     <ellipse cx="54" cy="142" rx="16" ry="9" fill="#e4572e" transform="rotate(20 54 142)"/>
+     <circle cx="150" cy="66" r="6" fill="#f5faf6"/><circle cx="132" cy="150" r="5" fill="#f5faf6"/><circle cx="48" cy="86" r="5" fill="#f5faf6"/>
+    </svg>
+   </div>
+  </div>
+ </div>
+</header>
+
+<section class="secao faixa">
+ <div class="container">
+  <h2 class="mb-4">Principais conteúdos</h2>
+  <div class="row g-4">
+   <div class="col-md-4"><div class="card h-100"><div class="card-body"><i class="bi bi-droplet fs-2 text-success"></i><h5 class="mt-2">Química da vida</h5><p class="mb-0">Água, sais minerais, carboidratos, lipídios, proteínas e ácidos nucleicos.</p></div></div></div>
+   <div class="col-md-4"><div class="card h-100"><div class="card-body"><i class="bi bi-bounding-box-circles fs-2 text-success"></i><h5 class="mt-2">Citologia</h5><p class="mb-0">Tipos de célula, membrana plasmática, organelas e núcleo.</p></div></div></div>
+   <div class="col-md-4"><div class="card h-100"><div class="card-body"><i class="bi bi-lightning-charge fs-2 text-success"></i><h5 class="mt-2">Metabolismo</h5><p class="mb-0">Fotossíntese, respiração celular e fermentação.</p></div></div></div>
+  </div>
+
+  <div id="destaques" class="carousel slide mt-5" data-bs-ride="carousel">
+   <div class="carousel-inner">
+    <div class="carousel-item active"><div class="slide"><h3>Você sabia?</h3><p class="mb-0">O corpo humano tem cerca de 37 trilhões de células.</p></div></div>
+    <div class="carousel-item"><div class="slide"><h3>Dica de estudo</h3><p class="mb-0">Desenhe a célula e escreva a função de cada organela ao lado.</p></div></div>
+    <div class="carousel-item"><div class="slide"><h3>Pratique</h3><p class="mb-0">Faça o simulado e descubra o que ainda precisa revisar.</p></div></div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#destaques" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Anterior</span></button>
+   <button class="carousel-control-next" type="button" data-bs-target="#destaques" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Próximo</span></button>
+  </div>
+ </div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section class="secao" id="sobre">
+ <div class="container">
+  <h2 class="mb-3">Sobre a disciplina</h2>
+  <p class="col-lg-8">Biologia é a ciência que estuda os seres vivos: como são formados, como funcionam, como se relacionam e como mudam ao longo do tempo.</p>
+  <div class="row"><div class="col-lg-9">
+   <div class="accordion mt-4" id="acSobre">
+
+    <div class="accordion-item">
+     <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a0">História da Biologia</button></h2>
+     <div id="a0" class="accordion-collapse collapse show" data-bs-parent="#acSobre"><div class="accordion-body">Aristóteles já classificava animais na Grécia Antiga. No século XVII, Robert Hooke observou “células” em cortiça ao microscópio. No século XIX, Darwin propôs a seleção natural e Mendel descreveu as bases da hereditariedade. Em 1953, Watson e Crick apresentaram a estrutura do DNA.</div></div>
+    </div>
+
+    <div class="accordion-item">
+     <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a1">Importância no cotidiano</button></h2>
+     <div id="a1" class="accordion-collapse collapse" data-bs-parent="#acSobre"><div class="accordion-body">Biologia ajuda a entender alimentação, vacinas, doenças, higiene e o impacto das nossas ações no meio ambiente.</div></div>
+    </div>
+
+    <div class="accordion-item">
+     <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">Áreas de aplicação</button></h2>
+     <div id="a2" class="accordion-collapse collapse" data-bs-parent="#acSobre"><div class="accordion-body">Medicina, enfermagem, nutrição, biotecnologia, agronomia, veterinária, ecologia, perícia criminal e pesquisa científica.</div></div>
+    </div>
+
+    <div class="accordion-item">
+     <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">Curiosidades</button></h2>
+     <div id="a3" class="accordion-collapse collapse" data-bs-parent="#acSobre"><div class="accordion-body">O DNA de uma única célula humana, se esticado, teria cerca de 2 metros. Bactérias podem se dividir a cada 20 minutos em condições ideais.</div></div>
+    </div>
+
+   </div>
+  </div></div>
+ </div>
+</section>
+
+<!-- ============ CONTEÚDOS ============ -->
+<section class="secao faixa" id="conteudos">
+ <div class="container">
+  <h2 class="mb-2">Conteúdos do 1º ano</h2>
+  <p class="mb-4">Os tópicos mais estudados no primeiro ano do Ensino Médio.</p>
+  <div class="row g-4">
+
+   <div class="col-md-6"><div class="card card-topico h-100"><div class="card-body">
+    <h4><i class="bi bi-stars text-success"></i> Origem da vida</h4>
+    <p class="mb-0">Abiogênese x biogênese, experimentos de Redi e Pasteur, hipótese heterotrófica e autotrófica, evolução química.</p>
+   </div></div></div>
+
+   <div class="col-md-6"><div class="card card-topico h-100"><div class="card-body">
+    <h4><i class="bi bi-droplet text-success"></i> Química da vida</h4>
+    <p class="mb-0">Água e sais minerais; carboidratos (energia), lipídios (reserva e membrana), proteínas (enzimas e estrutura) e ácidos nucleicos (DNA e RNA).</p>
+   </div></div></div>
+
+   <div class="col-md-6"><div class="card card-topico h-100"><div class="card-body">
+    <h4><i class="bi bi-bounding-box-circles text-success"></i> Citologia</h4>
+    <p class="mb-0">Células procariontes e eucariontes; membrana plasmática, transportes (difusão, osmose, transporte ativo), citoplasma e organelas.</p>
+   </div></div></div>
+
+   <div class="col-md-6"><div class="card card-topico h-100"><div class="card-body">
+    <h4><i class="bi bi-lightning-charge text-success"></i> Metabolismo energético</h4>
+    <p class="mb-0">Fotossíntese, respiração celular aeróbia, fermentação e o papel do ATP.</p>
+   </div></div></div>
+
+   <div class="col-md-6"><div class="card card-topico h-100"><div class="card-body">
+    <h4><i class="bi bi-diagram-2 text-success"></i> Núcleo e divisão celular</h4>
+    <p class="mb-0">Cromossomos, ciclo celular, mitose (crescimento e reparo) e meiose (formação de gametas).</p>
+   </div></div></div>
+
+   <div class="col-md-6"><div class="card card-topico h-100"><div class="card-body">
+    <h4><i class="bi bi-heart-pulse text-success"></i> Embriologia e histologia</h4>
+    <p class="mb-0">Desenvolvimento embrionário, folhetos germinativos e tecidos epitelial, conjuntivo, muscular e nervoso.</p>
+   </div></div></div>
+
+  </div>
+ </div>
+</section>
+
+<!-- ============ EXERCÍCIOS ============ -->
+<section class="secao" id="exercicios">
+ <div class="container">
+  <h2 class="mb-2">Exercícios</h2>
+  <p class="mb-4">Responda às cinco questões e clique em “Ver resultado”.</p>
+  <div class="col-lg-8"><form id="quiz" onsubmit="return false"></form></div>
+ </div>
+</section>
+
+<!-- ============ MATERIAIS ============ -->
+<section class="secao faixa" id="materiais">
+ <div class="container">
+  <h2 class="mb-4">Vídeos e materiais</h2>
+  <div class="row g-4">
+
+   <!-- VIDEOAULA -->
+   <div class="col-lg-7">
+    <h3 class="h4">Videoaulas</h3>
+    <div class="card"><div class="card-body">
+     <div class="ratio ratio-16x9 mb-3">
+      <iframe src="https://www.youtube-nocookie.com/embed/N33jWXzV8RU"
+              title="Introdução à Citologia - Biologia com Samuel Cunha"
+              allow="accelerometer; encrypted-media; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
+     </div>
+     <p class="mb-3"><strong>Introdução à Citologia</strong> · Biologia com Samuel Cunha</p>
+     <a class="btn btn-escuro" href="https://www.youtube.com/watch?v=N33jWXzV8RU" target="_blank" rel="noopener"><i class="bi bi-youtube"></i> Assistir no YouTube</a>
+     <a class="btn btn-outline-secondary" href="https://www.youtube.com/results?search_query=biologia+1+ano+ensino+medio+citologia" target="_blank" rel="noopener">Mais videoaulas</a>
+    </div></div>
+   </div>
+
+   <div class="col-lg-5">
+    <h3 class="h4">Sites recomendados</h3>
+    <div class="list-group">
+     <a class="list-group-item list-group-item-action" href="https://ptbr.khanacademy.org/science/biology" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i> Khan Academy: Biologia</a>
+     <a class="list-group-item list-group-item-action" href="https://brasilescola.uol.com.br/biologia" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i> Brasil Escola: Biologia</a>
+     <a class="list-group-item list-group-item-action" href="https://www.todamateria.com.br/biologia/" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i> Toda Matéria: Biologia</a>
+    </div>
+
+    <h3 class="h4 mt-4">Apostilas em PDF</h3>
+    <div class="list-group">
+     <a class="list-group-item list-group-item-action" href="#"><i class="bi bi-file-earmark-pdf"></i> Resumo de Citologia (adicione o arquivo)</a>
+     <a class="list-group-item list-group-item-action" href="#"><i class="bi bi-file-earmark-pdf"></i> Resumo de Metabolismo (adicione o arquivo)</a>
+    </div>
+   </div>
+
+  </div>
+ </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="secao" id="contato">
+ <div class="container">
+  <h2 class="mb-2">Contato</h2>
+  <p class="mb-4">Tem dúvida sobre algum conteúdo? Envie sua pergunta.</p>
+  <div class="col-lg-6">
+   <div id="ok" class="alert alert-success d-none" role="status">Mensagem enviada! (Demonstração: ainda não há servidor conectado.)</div>
+   <form id="formContato" novalidate>
+    <div class="mb-3">
+     <label for="nome" class="form-label">Nome</label>
+     <input type="text" class="form-control" id="nome" required>
+     <div class="invalid-feedback">Informe seu nome.</div>
+    </div>
+    <div class="mb-3">
+     <label for="email" class="form-label">E-mail</label>
+     <input type="email" class="form-control" id="email" required>
+     <div class="invalid-feedback">Informe um e-mail válido.</div>
+    </div>
+    <div class="mb-3">
+     <label for="msg" class="form-label">Mensagem</label>
+     <textarea class="form-control" id="msg" rows="5" required></textarea>
+     <div class="invalid-feedback">Escreva sua dúvida.</div>
+    </div>
+    <button type="submit" class="btn btn-escuro btn-lg"><i class="bi bi-send"></i> Enviar</button>
+   </form>
+  </div>
+ </div>
+</section>
+
+<!-- ============ RODAPÉ ============ -->
+<footer>
+ <div class="container d-flex flex-wrap justify-content-between gap-2">
+  <span>Biologia · 1º ano do Ensino Médio</span>
+  <span>Projeto escolar com Bootstrap 5 · <a href="#contato">Tire suas dúvidas</a></span>
+ </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// ===== Quiz =====
+const perguntas = [
+  { q: "Qual organela é a principal responsável pela respiração celular?", o: ["Ribossomo", "Mitocôndria", "Lisossomo", "Complexo golgiense"], c: 1 },
+  { q: "Qual biomolécula é o principal componente da membrana plasmática?", o: ["Fosfolipídios", "Amido", "DNA", "Celulose"], c: 0 },
+  { q: "Em qual organela ocorre a fotossíntese?", o: ["Núcleo", "Vacúolo", "Cloroplasto", "Retículo endoplasmático"], c: 2 },
+  { q: "A mitose resulta em:", o: ["Quatro células com metade dos cromossomos", "Duas células geneticamente idênticas", "Uma célula com o dobro de DNA", "Gametas"], c: 1 },
+  { q: "Segundo a teoria da biogênese, todo ser vivo se origina de:", o: ["Matéria bruta", "Outro ser vivo", "Raios e gases", "Água parada"], c: 1 }
+];
+
+const quiz = document.getElementById('quiz');
+quiz.innerHTML = perguntas.map((p, i) =>
+  `<div class="card mb-3"><div class="card-body"><h5>Questão ${i + 1}</h5><p>${p.q}</p>` +
+  p.o.map((t, j) => `<label class="opcao"><input class="form-check-input me-2" type="radio" name="q${i}" value="${j}">${t}</label>`).join('') +
+  `</div></div>`).join('') +
+  `<button type="button" id="corrigir" class="btn btn-escuro btn-lg"><i class="bi bi-check2-circle"></i> Ver resultado</button>
+   <button type="button" id="refazer" class="btn btn-outline-secondary btn-lg">Refazer</button>
+   <div id="resultado" class="alert alert-info mt-4 d-none" role="status"></div>`;
+
+document.getElementById('corrigir').onclick = () => {
+  let acertos = 0, sem = 0;
+  perguntas.forEach((p, i) => {
+    const marcada = quiz.querySelector(`input[name=q${i}]:checked`);
+    const ops = quiz.querySelectorAll(`input[name=q${i}]`);
+    ops.forEach(o => o.parentElement.classList.remove('certa', 'errada'));
+    ops[p.c].parentElement.classList.add('certa');
+    if (!marcada) { sem++; return; }
+    if (+marcada.value === p.c) acertos++;
+    else marcada.parentElement.classList.add('errada');
+  });
+  const r = document.getElementById('resultado');
+  r.classList.remove('d-none');
+  r.textContent = `Você acertou ${acertos} de ${perguntas.length}.` +
+    (sem ? ` ${sem} sem resposta.` : '') +
+    (acertos === perguntas.length ? ' Excelente!' : ' Revise o conteúdo e tente de novo.');
+};
+
+document.getElementById('refazer').onclick = () => {
+  quiz.querySelectorAll('input').forEach(i => i.checked = false);
+  quiz.querySelectorAll('.opcao').forEach(o => o.classList.remove('certa', 'errada'));
+  document.getElementById('resultado').classList.add('d-none');
+};
+
+// ===== Formulário de contato =====
+const form = document.getElementById('formContato');
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  form.classList.add('was-validated');
+  if (form.checkValidity()) {
+    document.getElementById('ok').classList.remove('d-none');
+    form.reset();
+    form.classList.remove('was-validated');
+  }
+});
+</script>
+</body>
+</html>
